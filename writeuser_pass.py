@@ -39,7 +39,7 @@ usr_data = task_name +':'+ hashed_salted_hash_value  # ':' is used as a separato
 
 #Now lets write the secured information to a file
 print("The secured information can be stored in a file\n")
-default_file = input("Press 'y' to select a new file name or Enter to use default (my_passes.txt")
+default_file = input("Press 'y' to select a new file name or Enter to use default (my_passes.txt)")
 if default_file == 'y':
 	file_to_store = input("Enter the file name to store the information.. (any_file_name.txt):")
 else:
